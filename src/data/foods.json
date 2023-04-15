@@ -1,0 +1,92 @@
+[
+   {
+      "id": 1,
+      "type": "Sushi",
+      "price": 20.99,
+      "name": "Red Dragon",
+      "description": "Sushi is one of the first foods that spring to mind when we think about Japanese cuisine. This delicacy was one of the first Japanese dishes to be exported to the US after the Meiji Restoration in 1868, and since then its popularity has steadily increased year after year.",
+      "image": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/sushi.webp",
+      "video": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/sushi.mp4"
+   },
+   {
+      "id": 2,
+      "type": "Udon",
+      "price": 18.99,
+      "name": "Wakame Udon",
+      "description": "Udon can be served in a number of different ways (mixed into stir fries, added to hot pots, served cold with a tsuyu or tentsuyu soup base on the side for dipping), but are most commonly used in noodle soups, where they are served in a savoury soup broth with different garnishes.",
+      "image": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/udon.webp",
+      "video": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/sushi.mp4"
+   },
+   {
+      "id": 3,
+      "type": "Tofu",
+      "price": 22.99,
+      "name": "Miso Soup with Tofu",
+      "description": "To answer the question ‘what is tofu?’, it is soy milk that has been coagulated, with the resulting curds being pressed into blocks. These blocks come in differing levels of firmness, and can be eaten uncooked (perhaps with a couple of savoury garnishes), boiled in hot pots, or fried into tasty pieces of aburaage and used as a garnish.",
+      "image": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/tofu.webp",
+      "video": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/sushi.mp4"
+   },
+   {
+      "id": 4,
+      "type": "Tempura",
+      "price": 24.99,
+      "name": "Kabocha Tempura",
+      "description": "Unlike in the UK, where battered foods tend to be made from meats and fish, tempura tends to be made from either small shellfish like prawns, or vegetables like green beans, pumpkin, daikon mooli radish, and sweet potato. Tempura can be eaten by itself (perhaps with a little grated daikon and a small dish of tsuyu for dipping), or served on top of rice bowls or noodle soups.",
+      "image": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/tempura.webp",
+      "video": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/sushi.mp4"
+   },
+   {
+      "id": 5,
+      "type": "Yakitori",
+      "price": 18.99,
+      "name": "Sunagimo",
+      "description": "While we in the UK might pick up a serving of chips or a hot dog during a sports match, the Japanese will pick up some yakitori. With a name literally meaning ‘barbecued chicken’, yakitori are small skewers of bite-size chicken pieces seasoned with salt or brushed with a sauce, or tare, of mirin rice wine, soy sauce, sake alcohol, and sugar.",
+      "image": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/yakitori.webp",
+      "video": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/sushi.mp4"
+   },
+   {
+      "id": 6,
+      "type": "Sashimi",
+      "price": 20.99,
+      "name": "Hirame",
+      "description": "Sashimi differs from sushi in that all sushi is made with vinegared rice and does not always contain raw fish, while sashimi is almost exclusively raw fish and is never served with rice. The fish used to make sashimi must be as fresh as possible, both in order to minimise the risk of contamination, and because fresher fish makes for tastier sashimi.",
+      "image": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/sashimi.webp",
+      "video": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/sushi.mp4"
+   },
+   {
+      "id": 7,
+      "type": "Ramen",
+      "price": 31.99,
+      "name": "Tonkotsu Ramen",
+      "description": "Ramen is a noodle soup dish consisting of wheat noodles (also known as ’ramen noodles’), a savoury broth (soy sauce, salt, miso, and tonkotsu pork bone are the four main ramen broth bases) and toppings of meat, protein, and/or vegetables such as sliced pork, nori seaweed, spring onions, bamboo shoots, and others.",
+      "image": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/ramen.webp",
+      "video": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/sushi.mp4"
+   },
+   {
+      "id": 8,
+      "type": "Donburi",
+      "price": 32.99,
+      "name": "Gomoku-don",
+      "description": "This rice bowl dish is almost as popular as ramen in Japan and a common lunchtime choice among busy Japanese workers. Donburi is made by preparing (normally by simmering or frying) various meat, fish and vegetables and serving over steamed rice in large bowls (also called ‘donburi’).",
+      "image": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/donburi.webp",
+      "video": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/sushi.mp4"
+   },
+   {
+      "id": 9,
+      "type": "Oden",
+      "price": 19.99,
+      "name": "Mochi Kinchaku",
+      "description": "No cold Japanese winter would be complete without oden. This winter hot pot dish, or nabemono, is made by taking an assortment of vegetables and proteins (including processed fish cakes, mochi rice cakes, boiled eggs, daikon radish, konjac yam and tofu), and stewing them in a light broth seasoned with soy sauce and dashi (a soup stock made from infusions of bonito fish flakes)",
+      "image": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/oden.webp",
+      "video": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/sushi.mp4"
+   },
+   {
+      "id": 10,
+      "type": "Tamagoyaki",
+      "price": 17.99,
+      "name": "Tamagoyaki Okonomiyaki",
+      "description": "A freshly cooked tamagoyaki looks like a rolled up crêpe, which can then be sliced up and eaten by itself (often this is how it is eaten at breakfast) or used a topping or filling in sushi. A tamagoyaki-topped nigiri sushi is often eaten in sushi bars as the final course, as the tamagoyaki has a slight sweetness that makes it almost dessert-like.",
+      "image": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/tamagoyaki.webp",
+      "video": "https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/sushi.mp4"
+   }
+]

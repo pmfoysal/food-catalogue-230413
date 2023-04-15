@@ -1,6 +1,4 @@
 import 'swiper/css';
-import video from '../assets/videos/video.mp4';
-import banner from '../assets/images/banner.webp';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 export default function Slider() {
@@ -8,13 +6,20 @@ export default function Slider() {
       <Swiper spaceBetween={0} slidesPerView={1} loop>
          <SwiperSlide>
             <section className='w-full h-auto aspect-video'>
-               <img src={banner} alt='Banner' className='h-full w-full object-cover' />
+               <img
+                  alt='Banner'
+                  className='h-full w-full object-cover'
+                  src='https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/banner.webp'
+               />
             </section>
          </SwiperSlide>
          <SwiperSlide>
             <section className='w-full h-auto aspect-video'>
-               <video className='h-full w-full object-cover' autoPlay muted>
-                  <source src={video} type='video/mp4' />
+               <video className='h-full w-full object-cover' autoPlay muted loop>
+                  <source
+                     type='video/mp4'
+                     src='https://raw.githubusercontent.com/pmfoysal/data/main/food-catalogue-230413/video.mp4'
+                  />
                </video>
             </section>
          </SwiperSlide>
