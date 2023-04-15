@@ -9,5 +9,9 @@ export function selectFood(id) {
 }
 
 export function selectFoodTypes() {
-   return foods.map(food => food.type);
+   const types = {};
+   foods.forEach(food => {
+      types[food.type] = (types[food.type] || 0) + 1;
+   });
+   return Object.keys(types).map(type => ({ name: type, count: types[type] }));
 }

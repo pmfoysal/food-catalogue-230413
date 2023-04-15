@@ -6,6 +6,11 @@ export default {
          fontFamily: {
             sans: ['Open Sans', 'sans-serif'],
          },
+         fontWeight: {
+            normal: '400',
+            medium: '550',
+            bold: '700',
+         },
       },
    },
    plugins: [],
