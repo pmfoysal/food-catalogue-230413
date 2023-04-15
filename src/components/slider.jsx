@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 export default function Slider() {
    return (
-      <Swiper spaceBetween={0} slidesPerView={1} loop>
+      <Swiper spaceBetween={0} slidesPerView={1} loop className='bg-white'>
          <SwiperSlide>
             <section className='w-full h-auto aspect-video'>
                <img

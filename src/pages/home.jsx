@@ -14,14 +14,14 @@ export default function Home() {
    }
 
    return (
-      <Fragment>
+      <main className='bg-slate-100 min-h-screen'>
          <Slider />
          <Filters filter={filter} setFilter={setFilter} />
-         <section className='grid grid-cols-2 gap-3 py-8 pb-20 px-3 bg-slate-100'>
+         <section className='grid grid-cols-2 gap-3 py-8 pb-20 px-3'>
             {foods.filter(filterFoods).map((food, index) => (
                <Card key={`food-${index}`} {...food} />
             ))}
          </section>
-      </Fragment>
+      </main>
    );
 }

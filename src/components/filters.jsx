@@ -7,7 +7,13 @@ export default function Filters({ filter, setFilter }) {
    const types = selectFoodTypes();
 
    return (
-      <Swiper spaceBetween={30} freeMode={{ enabled: true }} modules={[FreeMode]} slidesPerView='auto' className='py-8 px-3'>
+      <Swiper
+         spaceBetween={30}
+         freeMode={{ enabled: true }}
+         modules={[FreeMode]}
+         slidesPerView='auto'
+         className='py-8 px-3 bg-white'
+      >
          <SwiperSlide key={`type-00`} className='w-auto'>
             <button className={`relative ${filter === 'All' ? 'font-medium' : ''}`} onClick={() => setFilter('All')}>
                All Foods
