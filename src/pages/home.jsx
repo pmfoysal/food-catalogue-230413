@@ -17,7 +17,7 @@ export default function Home() {
       <Fragment>
          <Slider />
          <Filters filter={filter} setFilter={setFilter} />
-         <section className='grid grid-cols-2 gap-3 py-8 px-3 bg-slate-100'>
+         <section className='grid grid-cols-2 gap-3 py-8 pb-20 px-3 bg-slate-100'>
             {foods.filter(filterFoods).map((food, index) => (
                <Card key={`food-${index}`} {...food} />
             ))}

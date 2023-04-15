@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+   .page-button {
+      @apply flex items-center justify-center h-9 w-full rounded-full text-[10px] font-bold;
+   }
+
+   .page-button p {
+      @apply max-w-0 overflow-hidden;
+      transition: 0.2s ease;
+   }
+
+   .page-button svg {
+      @apply scale-125;
+      transition: 0.2s ease;
+   }
+
+   .page-button.active {
+      @apply bg-blue-100 text-blue-600 gap-1;
+   }
+
+   .page-button.offer {
+      @apply gap-1;
+   }
+
+   .page-button.active p {
+      @apply max-w-[50px];
+   }
+
+   .page-button.active svg {
+      @apply scale-100;
+   }
+
+   .header {
+      box-shadow: 0 -4px 1rem rgba(0, 0, 0, 0.1);
+   }
+}
