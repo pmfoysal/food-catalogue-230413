@@ -57,4 +57,8 @@
    .swiper-right {
       @apply right-3;
    }
+
+   .social-icon svg {
+      @apply h-[18px] w-auto;
+   }
 }
