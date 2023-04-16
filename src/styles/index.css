@@ -36,4 +36,25 @@
    .header {
       box-shadow: 0 -4px 1rem rgba(0, 0, 0, 0.1);
    }
+
+   .swiper-button {
+      @apply absolute top-1/2 -translate-y-1/2 z-10 h-8 w-8 rounded-full flex items-center justify-center bg-white shadow-md;
+      transition: 0.2s ease;
+   }
+
+   .swiper-button svg {
+      @apply h-[18px] w-auto;
+   }
+
+   .swiper-button:active {
+      @apply scale-95;
+   }
+
+   .swiper-left {
+      @apply left-3;
+   }
+
+   .swiper-right {
+      @apply right-3;
+   }
 }
