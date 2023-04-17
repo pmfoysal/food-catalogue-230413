@@ -8,7 +8,7 @@ export default function Header() {
    }
 
    return (
-      <header className='grid grid-cols-4 py-2 px-3 fixed bottom-0 left-0 w-full bg-white z-10 header'>
+      <header className='grid grid-cols-4 py-2 px-3 fixed bottom-0 left-0 w-full bg-white z-[999] header'>
          <Link to='/' className={`page-button ${isActive('/') ? 'active' : ''}`}>
             <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' className='h-[13.5px] w-auto'>
                <path
