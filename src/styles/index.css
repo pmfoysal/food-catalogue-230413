@@ -61,4 +61,13 @@
    .social-icon svg {
       @apply h-[18px] w-auto;
    }
+
+   .quantity-button {
+      @apply flex items-center justify-center px-2 py-1 text-white bg-blue-500;
+      transition: 0.2s ease;
+   }
+
+   .quantity-button:active {
+      @apply scale-95;
+   }
 }
