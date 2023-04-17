@@ -43,10 +43,13 @@ export default function Details() {
             </div>
             <div className='flex items-center justify-between mt-2'>
                <h1 className='text-lg font-medium'>{food.name}</h1>
-               <h2 className='text-sm font-bold'>
-                  <span className='text-blue-600'>$</span>
-                  {food.price}
-               </h2>
+               <div className='flex items-center gap-2'>
+                  {food.discount ? <h2 className='text-sm opacity-60 line-through'>${food.price}</h2> : null}
+                  <h2 className='text-sm font-bold'>
+                     <span className='text-blue-600'>$</span>
+                     {food.discount ? (food.price - food.price * food.discount).toFixed(2) : food.price}
+                  </h2>
+               </div>
             </div>
             <p className='text-sm leading-normal opacity-90 mt-2'>{food.description}</p>
          </article>

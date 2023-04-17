@@ -1,15 +1,15 @@
 import { Link, useLocation } from 'react-router-dom';
 
-export default function Header() {
+export default function Header({ isOpen, setIsOpen }) {
    const { pathname } = useLocation();
 
    function isActive(path) {
-      return pathname === path;
+      return pathname === path && !isOpen;
    }
 
    return (
       <header className='grid grid-cols-4 py-2 px-3 fixed bottom-0 left-0 w-full bg-white z-[999] header'>
-         <Link to='/' className={`page-button ${isActive('/') ? 'active' : ''}`}>
+         <Link to='/' className={`page-button ${isActive('/') ? 'active' : ''}`} onClick={() => setIsOpen(false)}>
             <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' className='h-[13.5px] w-auto'>
                <path
                   fill='currentColor'
@@ -18,7 +18,7 @@ export default function Header() {
             </svg>
             <p>Home</p>
          </Link>
-         <Link to='/discover' className={`page-button ${isActive('/discover') ? 'active' : ''}`}>
+         <Link to='/discover' className={`page-button ${isActive('/discover') ? 'active' : ''}`} onClick={() => setIsOpen(false)}>
             <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' className='h-4 w-auto'>
                <path
                   fill='currentColor'
@@ -27,7 +27,7 @@ export default function Header() {
             </svg>
             <p>Discover</p>
          </Link>
-         <button className='page-button offer'>
+         <button className={`page-button offer ${isOpen ? 'active' : ''}`} onClick={() => setIsOpen(prev => !prev)}>
             <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' className='h-[14px] w-auto'>
                <path
                   fill='currentColor'
@@ -40,7 +40,7 @@ export default function Header() {
             </svg>
             <p>Offers</p>
          </button>
-         <Link to='/socials' className={`page-button ${isActive('/socials') ? 'active' : ''}`}>
+         <Link to='/socials' className={`page-button ${isActive('/socials') ? 'active' : ''}`} onClick={() => setIsOpen(false)}>
             <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' className='h-[16px] w-auto'>
                <path
                   fill='currentColor'

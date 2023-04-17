@@ -70,4 +70,14 @@
    .quantity-button:active {
       @apply scale-95;
    }
+
+   .modal-offer {
+      @apply fixed left-0 bottom-0 z-[995] rounded-2xl bg-white h-0 w-full overflow-hidden;
+      box-shadow: 0 -5px 1rem rgba(0, 0, 0, 0.1);
+      transition: 0.25s ease;
+   }
+
+   .modal-offer.active {
+      @apply h-[60vh];
+   }
 }

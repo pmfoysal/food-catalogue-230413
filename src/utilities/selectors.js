@@ -4,6 +4,10 @@ export function selectFoods() {
    return foods;
 }
 
+export function selectDiscountedFoods() {
+   return foods.filter(food => food.discount);
+}
+
 export function selectFood(id) {
    return foods.find(food => food.id === id);
 }
